@@ -1,0 +1,2 @@
+import{a as e}from"./chunk-3TZG66IU.mjs";var r=class t extends e{constructor(i){super();this.identifier=i}serialize(i){i.serializeStr(this.identifier)}static deserialize(i){let s=i.deserializeStr();return new t(s)}};export{r as a};
+//# sourceMappingURL=chunk-NGH4UGW4.mjs.map

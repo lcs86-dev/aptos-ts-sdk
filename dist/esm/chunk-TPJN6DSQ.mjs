@@ -1,0 +1,2 @@
+import{a as s}from"./chunk-NGH4UGW4.mjs";import{b as i}from"./chunk-72XSCUWL.mjs";import{a as d}from"./chunk-3TZG66IU.mjs";var o=class t extends d{constructor(e,r){super();this.address=e,this.name=r}static fromStr(e){let r=e.split("::");if(r.length!==2)throw new Error("Invalid module id.");return new t(i.fromStringRelaxed(r[0]),new s(r[1]))}serialize(e){this.address.serialize(e),this.name.serialize(e)}static deserialize(e){let r=i.deserialize(e),a=s.deserialize(e);return new t(r,a)}};export{o as a};
+//# sourceMappingURL=chunk-TPJN6DSQ.mjs.map

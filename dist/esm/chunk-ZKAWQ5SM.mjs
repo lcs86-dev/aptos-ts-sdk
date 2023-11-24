@@ -1,0 +1,2 @@
+import{a as i}from"./chunk-MLNMPF2T.mjs";import{g as t}from"./chunk-5BTCICKS.mjs";var r=class{constructor(o){this.config=o}async fundAccount(o){let n=await i({aptosConfig:this.config,...o});return o.options?.waitForIndexer!==!1&&await t({aptosConfig:this.config,minimumLedgerVersion:BigInt(n.version)}),n}};export{r as a};
+//# sourceMappingURL=chunk-ZKAWQ5SM.mjs.map

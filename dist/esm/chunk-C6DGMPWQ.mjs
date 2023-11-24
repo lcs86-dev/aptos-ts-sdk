@@ -1,0 +1,2 @@
+import{a as t}from"./chunk-NBTMPC7J.mjs";var a=class{constructor(n){this.config=n}async transaction(n){return t({aptosConfig:this.config,...n})}async multiAgentTransaction(n){return t({aptosConfig:this.config,...n})}};export{a};
+//# sourceMappingURL=chunk-C6DGMPWQ.mjs.map

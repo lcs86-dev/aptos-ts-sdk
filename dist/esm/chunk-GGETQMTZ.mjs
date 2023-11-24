@@ -1,0 +1,2 @@
+import{e as t,f as o,g as a}from"./chunk-NBTMPC7J.mjs";var i=class{constructor(n){this.config=n}async signAndSubmitTransaction(n){let{signer:r,transaction:s}=n;return t({aptosConfig:this.config,signer:r,transaction:s})}async publishPackageTransaction(n){return o({aptosConfig:this.config,...n})}async rotateAuthKey(n){return a({aptosConfig:this.config,...n})}};export{i as a};
+//# sourceMappingURL=chunk-GGETQMTZ.mjs.map

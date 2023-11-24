@@ -1,0 +1,2 @@
+import{b as o}from"./chunk-NBTMPC7J.mjs";var a=class{constructor(n){this.config=n}transaction(n){return o({...n})}transactionAsFeePayer(n){let{signer:r,transaction:t}=n;if(!t.feePayerAddress)throw new Error(`Transaction ${t} is not a Fee Payer transaction`);return t.feePayerAddress=r.accountAddress,o({signer:r,transaction:t})}};export{a};
+//# sourceMappingURL=chunk-RZ6H3SA6.mjs.map
